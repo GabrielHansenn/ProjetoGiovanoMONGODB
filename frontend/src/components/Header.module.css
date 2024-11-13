@@ -1,0 +1,121 @@
+
+
+.header {
+    background-color: #2B4141;
+    color: white;
+    padding: 10px 0;
+    font-family: 'Unispace', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
+    margin-left: 20px;
+
+
+}
+  
+  .navbar nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+  
+  .navbar nav ul li a:hover {
+    color: #8AB9B5;
+  }
+
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logoTitle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-left: 15px; /* Espaço entre a imagem e o título */
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 15px;
+  }
+  
+
+  
+  .header button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Unispace', sans-serif;
+    cursor: pointer;
+  }
+ 
+  
+
+  .header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Unispace', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+  }  
+
+
+/* src/components/Header.module.css */
+
+.logoTitleLink {
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: inherit; /* Mantém a cor do texto atual */
+}
+
+.logoTitleLink h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff; 
+  margin: 0;
+  transition: color 0.3s ease; 
+}
+
+.logoTitleLink:hover h1 {
+  color: #8AB9B5; 
+}
+
+

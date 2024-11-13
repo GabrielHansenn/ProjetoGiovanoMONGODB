@@ -1,0 +1,83 @@
+/* CreatePost.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 4px solid #2B4141;
+  box-shadow: 10px 40px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.container h1 {
+  color: #2B4141;
+  font-family: 'Unispace', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputField, .textareaField {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 4px solid #8AB9B5;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: 'Unispace', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus, .textareaField:focus {
+  outline: none;
+  border-color: #2B4141;
+}
+
+.textareaField {
+  height: 150px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #8AB9B5;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Unispace', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 50%; /* Ajuste a largura para centralizar no formulário */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centraliza o texto dentro do botão */
+}
+
+.button:hover {
+  background-color: #2B4141;
+  transform: scale(1.03);
+}
+
+.button:active {
+  background-color: #4e7d7d;
+  transform: translateY(1px);
+}
+
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
